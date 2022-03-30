@@ -1,0 +1,55 @@
+
+.header {
+    padding: 20px 15px 20px 15px;
+}
+.header__logo {
+    max-height: 120px;
+    margin: 5px;
+
+}
+.header__menu{
+    display: flex;
+    justify-content: end
+}
+
+.header__menu a {
+    
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    color: rgb(228, 203, 94);
+}
+.header__menu :hover {
+    color: #2980b9;
+}
+.header__menu__links-divider{
+    padding: 5px;
+    font-size: 30px;
+}
+body{
+    background: url(https://funart.pro/uploads/posts/2021-04/1618421402_63-funart_pro-p-oboi-fon-temnii-fon-63.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: beige;
+}
+
+
+  .topbtn:hover {
+    background: #2980b9;
+  }
+  .container {
+      max-width: 1200px;
+      margin: 0px auto;
+      padding: 0px 15px ;
+  }
+ 
+
+

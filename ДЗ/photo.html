@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="photo.css">
+    <title>Слайдеры</title>
+</head>
+<body>
+    
+    <div class="slider">
+  
+        <div class="item">
+            <div class="numbertext">1/4</div>
+            <img src="img/fr1.jpg">
+            <div class="text">Фото 1</div>
+        </div>
+      
+        <div class="item">
+            <div class="numbertext">2/4</div>
+            <img src="img/fr2.jpg">
+            <div class="text">Фото 2</div>
+        </div>
+      
+        <div class="item">
+            <div class="numbertext">3/4</div>
+            <img src="img/fr3.jpg">
+            <div class="text">Фото 3</div>
+        </div>
+        <div class="item">
+            <div class="numbertext">4/4</div>
+            <img src="img/fr4.jpg">
+            <div class="text">Фото 4</div>
+        </div>
+        <a class="previous" onclick="previousSlide()">&#10094;</a>
+        <a class="next" onclick="nextSlide()">&#10095;</a>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+          <a href="index.html" class="myButton">Вернуться на главную страницу</a>
+          <div class="titul"><h3>Добавьте коментарий</h3></div>
+          <div class="coment">
+              <input type="text" class="inp_coment" name="Добавьте коментарий" placeholder="Заголовок коментария">
+              <input type="text" class="coment_window" name="Содержимое коментария" placeholder="Cодержимое коментария">
+              <button class="button_add">Отправить коментарий </button>
+              <div class="list_coment">
+                  <ul class="ul_coment">
+          
+                  </ul>
+              </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
